@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Square+Peg&display=swap');
+body{
+    padding: 50px 100px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+#container{
+    text-align: center;
+    /* background-color: #1abc9c; */
+    background: url(https://png.pngtree.com/background/20210709/original/pngtree-blue-education-training-course-simple-picture-image_942973.jpg);
+    padding: 50px;
+}
+
+.input-div{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+label{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 600px){
+     
+
+    #container{
+        text-align: center;
+        /* background-color: #1abc9c; */
+        background: url(https://png.pngtree.com/background/20210709/original/pngtree-blue-education-training-course-simple-picture-image_942973.jpg);
+        padding: 20px;
+    }
+    body{
+        padding: 18px 45px;
+        
+    }
+    .inp{
+        padding: 5px 10px;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 25px;
+        text-align: center;
+        font-family: 'Square Peg', cursive;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+    }
+}
